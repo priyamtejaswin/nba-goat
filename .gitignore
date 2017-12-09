@@ -1,0 +1,10 @@
+# python files and data
+*.pkl
+*.pyc
+*.log
+*.temp
+*.csv
+*.ipynb_checkpoints*
+*/temp*.sql
+*.npy
+
