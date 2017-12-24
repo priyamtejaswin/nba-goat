@@ -7,4 +7,5 @@
 *.ipynb_checkpoints*
 */temp*.sql
 *.npy
+*.DS_Store
 
