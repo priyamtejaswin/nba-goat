@@ -1,4 +1,5 @@
 # python files and data
+*.cpkl
 *.pkl
 *.pyc
 *.log
