@@ -2,11 +2,15 @@
 
 To find the **greatest-of-all-time** using statistics. The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
 
-### elo:
+### Elo:
+https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_vanilla.ipynb
 - Vanilla elo. No bells and whistles.
 - Adjusted elo. For margiv-of-victory(mov) and home-court-advantage(hca).
 
+Scroll down to the last cell for an interactive visualisation for two of my favorite teams.
+
 ### adf:
+https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_team.ipynb
 - Start by explaining the 2 core operations (convolution, greater-than).
 - Explain the clutter problem, the complexity involved with calculating the exact posterior.
 - Derive the parameter updates for the clutter problem using ADF.
