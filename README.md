@@ -1,6 +1,6 @@
 # nba-goat
 
-To find the **greatest-of-all-time** using statistics. The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
+To find the **greatest-of-all-time** using statistics. I have created this repository to explore different methods for estimating relative skill of NBA teams. The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
 
 ### Elo:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_vanilla.ipynb
@@ -9,7 +9,7 @@ https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_v
 
 Scroll down to the last cell for an interactive visualisation for two of my favorite teams.
 
-### adf:
+### ADF:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_team.ipynb
 - Start by explaining the 2 core operations (convolution, greater-than).
 - Explain the clutter problem, the complexity involved with calculating the exact posterior.
