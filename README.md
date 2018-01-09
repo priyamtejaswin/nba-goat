@@ -11,6 +11,7 @@ The complexity of methods increases according to the [standard, universally acce
 ### A note about the notebooks.
 
 All the text is written in Markdown. To avoid rendering issues, I would recommend to view it on nbviewer using the links provided below. The 2nd cell of the notebooks contains some javascript which hides all the input code cells for a pleasant reading experience. 
+
 ---
 
 ### 1. Elo:
