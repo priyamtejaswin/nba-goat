@@ -1,20 +1,37 @@
 # nba-goat
 
-To find the **greatest-of-all-time** using statistics. I have created this repository to explore different methods for estimating relative skill of NBA teams. The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
+To find the **greatest-of-all-time** using statistics. I have created this repository to explore different methods for estimating relative skill of NBA teams. My aim is to dive-deep into every method, derive the update equations and discuss the pros and cons. I intend to cover the following methods:
+1. Elo[COMPLETED]
+2. Assumed Density Filtering[IN PROGRESS]
+3. Expectation Propagation(given that this NBA data has already ocurred and can be used for batched inference.)
+4. Extension to EP
 
-### Elo:
+The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
+
+### A note about the notebooks.
+All the text is written in Markdown. To avoid rendering issues, I would recommend to view it on nbviewer using the links provided below. The 2nd cell of the notebooks contains some javascript which hides all the input code cells for a pleasant reading experience. 
+---
+
+### 1. Elo:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_vanilla.ipynb
-- Vanilla elo. No bells and whistles.
-- Adjusted elo. For margiv-of-victory(mov) and home-court-advantage(hca).
+- Tracking NBA franchises through changes in names and cities.
+- Explain Elo with its core assumptions and apply the vanilla Elo on nba data.
+- Extend the base model to account for score difference.
+- Extend the base model to account for home-court advantage.
+- Finish with 
 
 Scroll down to the last cell for an interactive visualisation for two of my favorite teams.
 
-### ADF:
+### 2. ADF:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_team.ipynb
 - Start by explaining the 2 core operations (convolution, greater-than).
 - Explain the clutter problem, the complexity involved with calculating the exact posterior.
 - Derive the parameter updates for the clutter problem using ADF.
 - Setup skill inference.
+
+Scroll down to the last cell to view ADF in action.
+
+---
 
 ### TODOs
 
