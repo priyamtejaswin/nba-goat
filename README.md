@@ -20,7 +20,7 @@ https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_v
 - Explain Elo with its core assumptions and apply the vanilla Elo on nba data.
 - Extend the base model to account for score difference.
 - Extend the base model to account for home-court advantage.
-- Finish with 
+- Finish with interactive visualisation.
 
 Scroll down to the last cell for an interactive visualisation for two of my favorite teams.
 
@@ -29,6 +29,7 @@ https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_t
 - Start by explaining the 2 core operations (convolution, greater-than).
 - Explain the clutter problem, the complexity involved with calculating the exact posterior.
 - Derive the parameter updates for the clutter problem using ADF.
+- Visualise the update procedure.
 - Setup skill inference.
 
 Scroll down to the last cell to view ADF in action.
