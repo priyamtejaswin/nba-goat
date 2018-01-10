@@ -1,16 +1,16 @@
 # nba-goat
 
 To find the **greatest-of-all-time** using statistics. I have created this repository to explore different methods for estimating relative skill of NBA teams. My aim is to dive-deep into every method, derive the update equations and discuss the pros and cons. I intend to cover the following methods:
-1. Elo[COMPLETED]
-2. Assumed Density Filtering[IN PROGRESS]
+1. Elo and common extensions.[DONE]
+2. Assumed Density Filtering.[IN PROGRESS]
 3. Expectation Propagation(given that this NBA data has already ocurred and can be used for batched inference.)
-4. Extension to EP
+4. Extensions to EP(score difference).
 
 The complexity of methods increases according to the [standard, universally accepted W3D difficulty rating system](http://agentpalmer.com/wp-content/uploads/2014/10/Setting-your-Wolfenstein-3D-Difficulty-Level.jpg). You have been warned.
 
 ### A note about the notebooks.
 
-All the text is written in Markdown. To avoid rendering issues, I would recommend to view it on nbviewer using the links provided below. The 2nd cell of the notebooks contains some javascript which hides all the input code cells for a pleasant reading experience. 
+All the text is written in Markdown. To avoid rendering issues, I would recommend to view it on nbviewer using the links provided below. The 2nd cell of the notebooks contains some javascript which hides all the input code cells for a pleasant reading experience. If you're interested in the code, then please click on the **here** link in the 2nd cell. The code for generating the graphical models is in `scratch.ipynb`.
 
 ---
 
@@ -26,11 +26,10 @@ Scroll down to the last cell for an interactive visualisation for two of my favo
 
 ### 2. ADF:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_team.ipynb
-- Start by explaining the 2 core operations (convolution, greater-than).
-- Explain the clutter problem, the complexity involved with calculating the exact posterior.
-- Derive the parameter updates for the clutter problem using ADF.
-- Visualise the update procedure.
-- Setup skill inference.
+[ ] Start by explaining the 2 core operations (convolution, greater-than).
+[ ] Explain the clutter problem, the complexity involved with calculating the exact posterior.
+[ ] Derive the parameter updates for the clutter problem using ADF.
+[ ] Visualise the update procedure.
 
 Scroll down to the last cell to view ADF in action.
 
