@@ -21,9 +21,9 @@ https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-elo_v
 - [x] Extend the base model to account for score difference(mov-Elo).
 - [x] Extend the base model to account for home-court advantage(hca-Elo).
 - [x] Finish with interactive visualisation of Warriors and Bulls.
-- [x] Discuss and seque to ADF and TrueSkill.
+- [x] Discuss and segue to ADF and TrueSkill.
 
-Scroll down to the last cell for an interactive visualisation of two of my favorite teams!
+Scroll down to the last cell for an interactive visualisation for two of my favorite teams!
 
 ### 2. ADF:
 https://nbviewer.jupyter.org/github/priyamtejaswin/nba-goat/blob/master/nb-adf_team.ipynb
